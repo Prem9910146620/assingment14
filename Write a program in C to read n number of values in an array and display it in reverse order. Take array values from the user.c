@@ -1,0 +1,14 @@
+
+main()
+{
+    int a[10],i;
+    printf("enter 10 number \n");
+    for(i=0;i<10;i++)
+    { scanf("%d",&a[i]); }
+    for(a[i]=10;a[i]>0;a[i]--)
+        { printf(" %d",a[i]); }
+
+
+
+    return 0;
+}
